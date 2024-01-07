@@ -193,3 +193,59 @@
     line-height: 32px;
     margin-bottom: 43px;
 }
+
+/* best gifts section related styles */
+
+.gifts {
+    width: 1320px;
+    height: 1164px;
+    margin: 120px auto;
+    font-family: Inter;
+}
+
+.gifts h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gifts h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.gifts p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.gifts .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gifts .image-container .image {
+    width: 424px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.gifts .image-container .image img {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.gifts .image-container .image:hover img {
+    transform: scale(1.1);
+}
+
