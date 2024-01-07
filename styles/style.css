@@ -111,6 +111,7 @@
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
+    margin-bottom: 24px;
 }
 
 .banner-2-container .banner-2 .info p {
@@ -301,4 +302,92 @@
     height: 72px;
     border: none;
     border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+/* footer related styles */
+
+footer {
+    width: 100vw;
+    height: 609px;
+    background-color: #070211;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 100%;
+    margin: auto;
+    color: #FFF;
+    font-family: Inter;
+}
+
+footer .container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .container .start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 80px;
+}
+
+footer .container .start h3 {
+    width: 375px;
+    height: 80px;
+}
+
+footer .container .start .contact .phone {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+footer .container .start .contact .phone h3 {
+    height: 40px;
+}
+
+footer .container .start .contact .web {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+footer .container .start .contact .web h3 {
+    height: 40px;
+}
+
+footer .container .socials {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 50px;
+}
+
+footer .container .end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .end button {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
