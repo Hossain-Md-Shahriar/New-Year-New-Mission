@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* first banner related styles */
+
 .banner-container {
     width: 1320px;
     height: 600px;
@@ -38,4 +40,94 @@
     font-weight: 900;
     line-height: 95px;
     width: 48%;
+}
+
+/* 65% OFF section related styles */
+
+.holiday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 803px;
+    margin: 0 auto 120px auto;
+    font-family: Inter;
+}
+
+.holiday h1 {
+    color: #F00;
+    margin-bottom: 48px;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holiday h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday h2 {
+    color: #070211;
+    margin-bottom: 48px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.holiday img {
+    width: 100%;
+}
+
+/* second banner section related styles */
+
+.banner-2-container {
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 120px auto;
+    background-image: url(../resources/Vectorrr.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-2-container .banner-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.banner-2-container .banner-2 .info {
+    width: 697px;
+    padding-left: 126px;
+    padding-right: 40px;
+    font-family: Inter;
+}
+
+.banner-2-container .banner-2 .info h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.banner-2-container .banner-2 .info p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.banner-2-container .banner-2 .info button {
+    color: #FFF;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 32px;
 }
