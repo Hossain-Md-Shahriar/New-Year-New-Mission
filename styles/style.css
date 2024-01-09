@@ -26,10 +26,12 @@
     width: 100%;
     height: 100%;
     border-radius: 16px;
+    font-family: Merriweather;
 }
 
 .banner-container .banner h3 {
     font-size: 32px;
+    font-weight: 400;
     margin-bottom: 16px;
 }
 
@@ -82,7 +84,7 @@
 .banner-2-container {
     width: 1320px;
     height: 600px;
-    margin: 50px auto 120px auto;
+    margin: 0 auto 120px auto;
     background-image: url(../resources/Vectorrr.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -131,6 +133,44 @@
     padding-left: 32px;
 }
 
+/* first optional container related styles */
+
+.optional-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    font-family: Inter;
+}
+
+.optional-1 p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.optional-1 p span {
+    color: #F00;
+}
+
+.optional-1 button {
+    margin-top: 48px;
+    padding: 16px 32px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #F00;
+    border: none;
+    cursor: pointer;
+}
+
 /* bonus container related styles */
 
 .bonus-container {
@@ -171,7 +211,7 @@
 .bonus-container .box-2 {
     width: 365px;
     height: 365px;
-    padding: 41.5px;
+    padding: 38.5px;
     margin-right: 118px;
     border: 15px solid #F00;
     border-radius: 463px;
@@ -193,6 +233,77 @@
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 43px;
+}
+
+/* second optional section related styles */
+
+.optional-2 {
+    width: 1320px;
+    height: 1000px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+}
+
+.optional-2 h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.optional-2 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.optional-2 h1 span {
+    color: #F00;
+}
+
+.optional-2 p {
+    width: 1000px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.optional-2 .images {
+    position: relative;
+    width: 1320px;
+    height: 662px;
+}
+
+.optional-2 .images .rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.optional-2 .images .excited {
+    position: absolute;
+    right: 0;
+}
+
+.optional-2 .images .discount {
+    position: absolute;
+    top: 75px;
+    right: 275px;
+    z-index: 1;
+}
+
+.optional-2 .images .box {
+    position: absolute;
+    z-index: 1;
 }
 
 /* best gifts section related styles */
@@ -283,13 +394,19 @@
     margin-bottom: 48px;
 }
 
+.newsletter form {
+    position: relative;
+    width: 648px;
+    height: 72px;
+}
+
 .newsletter input[type="email"] {
     color: rgba(7, 2, 17, 0.30);
     font-size: 18px;
     border: none;
     height: 72px;
     padding-left: 30px;
-    padding-right: 267px;
+    padding-right: 183px;
     border-radius: 50px 0 0 50px;
 }
 
@@ -303,12 +420,13 @@
     border: none;
     border-radius: 0px 50px 50px 0px;
     cursor: pointer;
+    position: absolute;
 }
 
 /* footer related styles */
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 609px;
     background-color: #070211;
 }
